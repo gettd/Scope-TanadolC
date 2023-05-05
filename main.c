@@ -21,6 +21,7 @@ int main()
    }
 
   printf("Local x in main is %d \n",x);
+  
   printf("\n========================\n");
   useLocal();
   useLocal();
@@ -28,6 +29,7 @@ int main()
   printf("\n========================\n");
   useStaticLocal();
   useStaticLocal();
+  
   printf("\n========================\n");
   useGlobal();
   useGlobal();
